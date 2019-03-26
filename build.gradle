@@ -1,5 +1,5 @@
 allprojects {
-    version = '1.3.2.Final'
+    version = '1.3.3-SNAPSHOT'
     group = 'com.gatehill.corebot'
 
     ext.mavenSnapshotRepository = 's3://gatehillsoftware-maven/snapshots'
