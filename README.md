@@ -63,11 +63,11 @@ If you'd like to run Corebot yourself as a Docker container, you can do the foll
 
 ## Creating a Slack app
 
-As a Slack admin, create a Slack app: https://api.slack.com/apps/new
+As a Slack admin, create a 'Classic App' in Slack: https://api.slack.com/apps?new_classic_app=1
 
-Add a bot user in the 'Bot Users' section:
+Add a bot user by expanding 'Add features and functionality', and clicking on Bots:
 
-    https://api.slack.com/apps/<your app ID>/bots
+    https://api.slack.com/apps/<your app ID>/app-home
 
 Add the required scopes in the 'OAuth & Permissions' section:
 
